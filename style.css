@@ -1,0 +1,78 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=UnifrakturCook&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(98, 34, 55);
+    font-family: 'UnifrakturCook', sans-serif;
+}
+.container{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    height: 85vh;
+    width: 60vw;
+    
+}
+.content{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.content img{
+    width: 80px;
+    margin-left: 170px;
+}
+.content h1{
+    text-transform: lowercase;
+    text-align: center;
+    color: #a5d59d;
+}
+.inputarea{
+    display: flex;
+}
+.inputarea input{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin: 5px;
+    outline: none;
+    border: 2px solid rgb(218, 166, 183);
+    padding: 20px 40px;
+    font-size: 20px;
+}
+a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: rgb(98, 34, 55);
+    padding: 10px;
+    margin: 0px 6px;
+    color: #fff;
+    text-transform: lowercase;
+    font-size: 25px;
+    font-weight: bold;
+}
+#print{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(98, 34, 55);
+    margin: 20px;
+    padding: 20px 50px;
+    color: #fff;
+    text-transform: lowercase;
+    font-size: 25px;
+    text-align: center;
+}
+#statement{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    text-transform: lowercase;
+    font-size: 30px;
+}
